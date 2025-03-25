@@ -1,0 +1,28 @@
+@charset "UTF8";
+
+.size10 {
+  font-size: 10px;
+}
+.size50 {
+  font-size: 50px;
+}
+.size30 {
+  font-size: 30px;
+}
+.size20 {
+  font-size: 20px;
+}
+
+.largura {
+  max-width: 350px;
+}
+.heightsize {
+  min-height: 62px;
+}
+.custom-size {
+ 
+    width: 100%;
+    height: 200px; /* Tamanho fixo desejado */
+    object-fit: cover; /* Cobre o espaço da caixa sem distorcer a imagem */
+  
+}
