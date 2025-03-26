@@ -20,9 +20,12 @@
   min-height: 62px;
 }
 .custom-size {
- 
-    width: 100%;
-    height: 200px; /* Tamanho fixo desejado */
-    object-fit: cover; /* Cobre o espaço da caixa sem distorcer a imagem */
-  
+  width: 100%;
+  height: 200px; /* Tamanho fixo desejado */
+  object-fit: cover; /* Cobre o espaço da caixa sem distorcer a imagem */
 }
+  @media (max-width: 992px) {
+  .heightsize{
+    --bs-border-opacity: 0;
+  }
+  }
